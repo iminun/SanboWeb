@@ -3,11 +3,10 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.set('view engine', 'ejs');
 const bodyParser= require('body-parser');
-main
 const port = 8080;
 
 //const db = require('./lib/db.js');
-main
+
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({extended : true}));
