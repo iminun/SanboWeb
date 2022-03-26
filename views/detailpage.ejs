@@ -1,0 +1,21 @@
+<%- include('./common/head.ejs') %>
+    <body>
+        <div class="d-flex" id="wrapper">
+            <!-- Sidebar-->
+            <%- include('./common/sidebar.ejs') %>
+            <!-- Page content wrapper-->
+            <div id="page-content-wrapper">
+                <!-- Top navigation-->
+                <%- include('./common/topnav.ejs') %>
+                <!-- Page content-->
+                <div class="container-fluid">
+                    <h1 class="mt-4">중앙대학교 산업보안학과</h1>
+                    <p>중앙대학교 산업보안학과에 오신것을 환영합니다.</p>
+                    <h2>제목</h2>
+                    <%= data.title %>
+                    <h2>Description</h2>
+                    <%= data.contents %>                
+                </div>
+            </div>
+        </div>
+        <%- include('./common/bottom.ejs') %>
